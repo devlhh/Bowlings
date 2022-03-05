@@ -1,0 +1,88 @@
+.Frame-main-template {
+    background-color: lemonchiffon;
+    margin-top:0.5rem;
+    margin-bottom:1rem;
+}
+
+.player-wrapper {
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    border-radius: 12px;
+    padding: 4px;
+    display: inline-block;
+    background-color: peru;
+;
+}
+
+.tframe-wrapper {
+    margin:0.5rem;
+    display:flex;
+}
+
+.tframe-box {
+    width: 100%;
+    border: 1px solid black;
+    border-right: none;
+}
+
+.tframe-box:last-child {
+    border-right: 1px solid black;
+}
+
+.tframe-name {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+
+.tscore-box {
+    width:100%;
+    display: flex;
+}
+
+.tscore-box div{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-box {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.middle-box {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.right-box {
+    border-bottom: 1px solid black;
+}
+
+.tframe-total-box {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.total-box {
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+}
+
+@keyframes example {
+    to {background-color: orange;}
+}
+
+.tframe-wrapper {
+    animation-name: example;
+    animation-duration: 4s;
+}
+

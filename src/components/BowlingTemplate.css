@@ -1,0 +1,51 @@
+.Bowling-main-template {
+    width:1400px;
+    height:800px;
+    margin: auto;
+    background-color: cornflowerblue;
+}
+
+.Bowling-main-template header {
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 100;
+    background: #f61107;
+    color:white;
+}
+
+.main-wrapper {
+    margin-top: 8rem;
+    color:white;
+    text-align: center;
+}
+
+.main-wrapper div {
+    padding: 3rem;
+}
+
+.player-num {
+    display: inline-block;
+    width:120px;
+    border-radius: 24px;
+    background-color: #495057;
+    border: 1px solid #090909;
+}
+
+.main-wrapper div button {
+    width:50px;
+    margin:1rem;
+}
+
+.play-btn {
+    margin-top:4rem;
+    margin-bottom:13rem;
+    text-align: center;
+}
+
+.play-btn button {
+    width:132px;
+    height:30px;
+    background-color: black;
+    color: white;
+}
